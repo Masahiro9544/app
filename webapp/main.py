@@ -115,7 +115,7 @@ input_data = {
 
 input_df = pd.DataFrame(input_data)
 
-model = joblib.load('/webapp/model.pkl')
+model = joblib.load('./model.pkl')
 predictions = model.predict_proba(input_df)
 pred1 = predictions[0, 1]
 pred = pred1 * 100
