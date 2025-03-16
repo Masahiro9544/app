@@ -4,6 +4,9 @@ import pandas as pd
 import joblib
 import os
 
+print("Current directory:", os.getcwd())  # 現在の作業ディレクトリを表示
+print("Files in directory:", os.listdir())  # カレントディレクトリのファイル一覧
+
 path = os.getcwd()
 
 st.set_page_config(layout="wide")
