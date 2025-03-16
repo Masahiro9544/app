@@ -4,8 +4,6 @@ import pandas as pd
 import joblib
 import os
 
-import pickle
-
 path = os.getcwd()
 
 st.set_page_config(layout="wide")
