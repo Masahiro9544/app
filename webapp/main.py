@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 import os
 
-st.markdown("Current directory:", os.getcwd())  # 現在の作業ディレクトリを表示
-st.markdown(print("Files in directory:", os.listdir()))  # カレントディレクトリのファイル一覧
+st.markdown('"Current directory:", os.getcwd()')  # 現在の作業ディレクトリを表示
+st.markdown('print("Files in directory:", os.listdir())')  # カレントディレクトリのファイル一覧
 
 path = os.getcwd()
 
